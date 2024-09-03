@@ -1,0 +1,151 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.oso {
+    position: relative;
+    width: 200px;
+    height: 300px;
+}
+
+.oreja {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #e98a4f;
+    border-radius: 50%;
+}
+
+.oreja.izquierda {
+    top: 0;
+    left: 20px;
+}
+
+.oreja.derecha {
+    top: 0;
+    right: 20px;
+}
+
+.cabeza {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 150px;
+    background-color: #e98a4f;
+    border-radius: 50%;
+}
+
+.ojo {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.ojo.izquierdo {
+    top: 50px;
+    left: 35px;
+}
+
+.ojo.derecho {
+    top: 50px;
+    right: 35px;
+}
+
+.nariz {
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 20px;
+    background-color: #5d3e3e;
+    border-radius: 50%;
+}
+
+.boca {
+    position: absolute;
+    top: 110px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 55px;
+    height: 08px;
+    border: 5px solid #5d3e3e;
+    border-radius: 50%/100%;
+    background-color: transparent;
+}
+
+.cuerpo {
+    position: absolute;
+    top: 180px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 180px;
+    height: 180px;
+    background-color: #e98a4f;
+    border-radius: 50%;
+}
+
+.barriga {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 120px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.brazo {
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    background-color: #e98a4f;
+    border-radius: 20px;
+}
+
+.brazo.izquierdo {
+    top: 200px;
+    left: -10px; 
+}
+
+.brazo.derecho {
+    top: 200px;
+    right: -10px; 
+}
+
+.pierna {
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    background-color: #e98a4f;
+    border-radius: 50%;
+}
+
+.pierna.izquierda {
+    bottom: -10px; 
+    left: -35px; 
+}
+
+.pierna.derecha {
+    bottom: -10px; 
+    right: -35px; 
+}
+.name{
+    position: relative;
+    top: -60px;
+    left: -60px;
+}
+.name p{
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
